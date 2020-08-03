@@ -18,6 +18,7 @@ const Timer = () => {
             <button onClick={()=>clearInterval(timeRef.current)}>Pause</button>
         </div>
     )
+    
 }
 
 export default Timer
